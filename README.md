@@ -1,11 +1,94 @@
 
-  # AI Fake News Detection Dashboard
+  # FactTrap - AI Powered Fake News Detection Platform
 
-  This is a code bundle for AI Fake News Detection Dashboard. The original project is available at https://www.figma.com/design/rFLxAZ3hJJhRg9IXqVSxqQ/AI-Fake-News-Detection-Dashboard.
+## Overview
 
-  ## Running the code
+FactTrap is a full stack AI powered fake news detection platform that analyzes news articles and URLs to determine their credibility.
 
-  Run `npm i` to install the dependencies.
+The platform combines Transformer based NLP models, sentiment analysis, and linguistic pattern detection to generate misinformation risk scores and provide explainable insights.
 
-  Run `npm run dev` to start the development server.
+## Features
+
+* AI powered fake news detection using Transformer models
+* Sentiment analysis using VADER
+* Analyze both article text and URLs
+* Automatic article extraction from URLs
+* Dynamic analytics dashboard
+* Historical analysis tracking
+* Weekly activity visualization
+* Search and filtering of previous analyses
+* PostgreSQL based persistent storage
+
+## Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Tailwind CSS
+* Recharts
+
+### Backend
+
+* Flask
+* Python
+* REST APIs
+
+### Database
+
+* PostgreSQL
+
+### AI/NLP
+
+* Hugging Face Transformers
+* RoBERTa
+* VADER Sentiment Analysis
+* Newspaper3k
+
+## System Architecture
+
+Frontend (React) → Flask REST API → AI/NLP Models → PostgreSQL Database
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Kavzy06/FactTrap.git
+cd FactTrap
+```
+
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd backend
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+## Future Improvements
+
+* Advanced fact checking APIs
+* User authentication
+* Export reports as PDF
+* Detailed analysis pages
+* Enhanced explainable AI features
+
+## Author
+
+Kavya Srivastava
+
   
