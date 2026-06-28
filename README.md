@@ -49,6 +49,30 @@ The platform combines Transformer based NLP models, sentiment analysis, and ling
 
 Frontend (React) → Flask REST API → AI/NLP Models → PostgreSQL Database
 
+## Screenshots
+
+### Landing Page
+
+![Landing Page](screenshots/landing page.png)
+
+---
+
+### Analysis Results
+
+![Analysis Results](screenshots/analysis results.png)
+
+---
+
+### Analytics Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### Analysis History
+
+![History](screenshots/history.png)
+
 ## Installation
 
 ### Clone the repository
