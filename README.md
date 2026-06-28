@@ -53,13 +53,13 @@ Frontend (React) → Flask REST API → AI/NLP Models → PostgreSQL Database
 
 ### Landing Page
 
-![Landing Page](screenshots/landing page.png)
+![Landing Page](screenshots/landing.png)
 
 ---
 
 ### Analysis Results
 
-![Analysis Results](screenshots/analysis results.png)
+![Analysis result](screenshots/analysis.png)
 
 ---
 
